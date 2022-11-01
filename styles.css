@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+:root {
+    --primary-color: #ff9500;
+}
+
+#heading {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    row-gap: 1rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+label{
+    font-size: large;
+    font-weight: bolder;
+}
+input {
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: large;
+    border: 2px solid var(--primary-color);
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 325px;
+}
+
+button {
+    border: none;
+    color: white;
+    font-weight: bolder;
+    padding: 0.7rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    cursor: pointer;
+    background-color: var(--primary-color);
+
+}
+
+#output{
+    margin-top: 1rem;
+    font-size: large;
+    font-weight: bolder;
+}
+footer{
+    background-color: var(--primary-color);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    margin-block-start: 0rem;
+    margin-block-end: 0rem;
+    padding-inline-start: 0px;
+    justify-content: center;
+}
+footer ul li{
+    padding: 1rem;
+
+}
+ a{
+    text-decoration: none;
+    color:#fff;
+}
